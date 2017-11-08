@@ -1,0 +1,9 @@
+#!/bin/sh
+
+VIM_USER_BUNDLES=~/.vim/bundle
+
+mkdir -p $VIM_USER_BUNDLES
+git clone https://github.com/VundleVim/Vundle.vim.git $VIM_USER_BUNDLES/Vundle.vim
+
+vim +PluginInstall +qall
+
