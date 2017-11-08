@@ -21,7 +21,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'bling/vim-airline'
 Plugin 'vim-scripts/Conque-GDB'
 Plugin 'tpope/vim-commentary'
-
+Plugin 'sheerun/vim-polyglot'
 
 
 
